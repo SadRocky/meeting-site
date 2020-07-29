@@ -43,9 +43,12 @@ p.site-about {
     display: flex;
     justify-content: space-around;
     margin: 0;
+    display: none;
 }
 
 .tabs {
+    display: flex;
+    justify-content: center;
     position: relative; /* Относительное позиционирование */
    }
    .tab, .tab-title {
@@ -71,3 +74,167 @@ p.site-about {
    .tab :checked ~ .tab-content {
     display: block; /* Показываем активную вкладку */
    }
+
+.tab button {
+    padding: 15px 55px;
+    background-color: rgba(0,0,0,0);
+    color: #1d2333;
+    border: 2px solid #1d2333;
+    outline: 0;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.tabs-login {
+    border-radius: 10px 0 0 10px;
+    border: 0;
+}
+
+.tabs-reg {
+    border-radius: 0 10px 10px 0;
+}
+
+.tabs-login:hover, .tabs-reg:hover {
+    background-color: #1d2333;
+    color: #fff;
+}
+
+/*=====================Style for sign-block=====================*/
+
+
+.sign {
+    background: #1d2333;
+    width: 500px;
+	border-radius: 20px;
+}
+
+.sign-head {
+	font-size: 35px;
+	margin: 10px 0;
+	padding: 0;
+	text-align: center;
+    user-select: none;
+    padding: 10% 30%;
+    color: #fff;
+}
+
+.input-data, .input-btn {
+    width: 100%;
+    margin: 25px auto;
+    color: #3f485f;
+}
+
+.input-btn {
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+.input-data input {
+    width: 70%;
+    background: #1d2333;
+    border: 2px solid #3f485f;
+    color: #3f485f;
+	border-radius: 15px;
+	outline: none;
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+	transition: .3s;
+	height: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+.input-data input:focus {
+	border: 2px solid #66f;
+	color: #fff;
+}
+
+.input-btn input{
+	width: 70%;
+	border: 2px solid #66f;
+    font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 20px;
+	background: #66f;
+	padding: 6px 0;
+    transition: .3s;
+    margin-bottom: 10%;
+    padding: 15px 15px;
+}
+
+.input-btn input:hover {
+    border: 2px solid #9668ff;
+	background: #9668ff;
+}
+
+.input-for {
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+.input-for > .forgot {
+    float: left;
+    margin-left: 11%;
+}
+
+.input-for > a {
+    text-decoration: none;
+    color: #3f485f;
+    float: right;
+    margin-right: 11%;
+}
+
+
+.social-text {
+    color: #fff;
+    margin-top: 0%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.social-icon {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.social-icon  > a > i {
+    color: #fff;
+}
+
+.social-icon > div > a {
+    padding: 150%;
+    margin-left: 0;
+}
+
+.o-icon, .d-icon, .t-icon, .f-icon {
+    text-align: center;
+    width: 15%;
+    height: 20%;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 25%;
+}
+
+.o-icon {
+    background: #36c;
+}
+
+.d-icon {
+    background: #3cf;
+}
+
+.t-icon {
+    background: #66f;
+}
+
+.f-icon {
+    background: #f36;
+}
+
+.active {
+    display: block;
+}
