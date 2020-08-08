@@ -163,5 +163,17 @@ body {
 
 .send-message {
     background: #3c6;
+}
 
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #1d2333;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+
+.el-nav {
+    padding: 0% 2.5%;
+    margin: 2%;
 }
