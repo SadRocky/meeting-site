@@ -285,3 +285,15 @@ body {
 .green {
     color: #3c6;
 }
+
+.interest-line {
+    margin-top: 7%;
+}
+
+.interest-line > p {
+    margin: 0;
+}
+
+.interest-line > h4 {
+    margin-bottom: 2%;
+}
