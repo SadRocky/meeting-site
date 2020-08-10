@@ -3,6 +3,7 @@ body {
     font-family: 'Rowdies', cursive;
     padding: 0;
     margin: 0;
+    line-height: 1.5;
 }
 
 .container {
@@ -218,11 +219,12 @@ body {
 .about-block {
     display: flex;
     justify-content: center;
+    font-weight: 100;
 }
 
 .about-me {
     width: 34%;
-    height: 300px;
+    height: 500px;
     background: #1d2333;
     border-radius: 20px;
     margin: 2% 2% 2% 0%;
@@ -231,7 +233,7 @@ body {
 
 .about-info {
     width: 38%;
-    height: 300px;
+    height: 500px;
     background: #1d2333;
     border-radius: 20px;
     margin: 0% 0% 0% 2%;
@@ -239,7 +241,7 @@ body {
 
 .about-interest-v1 {
     width: 64%;
-    height: 300px;
+    height: 500px;
     background: #1d2333;
     border-radius: 20px;
     margin: 2% 0% 2% ;
@@ -247,7 +249,7 @@ body {
 
 .about-interest-v2 {
     width: 64%;
-    height: 300px;
+    height: 500px;
     background: #1d2333;
     border-radius: 20px;
     margin: 0% 0% 2% ;
@@ -258,7 +260,28 @@ body {
     color: #fff;
 }
 
+.pad-container > p {
+    padding-top: 5%;
+}
+
 .pad-container > h3 {
     margin: 0;
 }
 
+.info-line {
+    display: flex;
+    justify-content: center;
+}
+
+.el-cell {
+    width: 33%;
+    color: #616a82;
+}
+
+.el-answer {
+    width: 66%;
+}
+
+.green {
+    color: #3c6;
+}
