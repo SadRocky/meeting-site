@@ -177,7 +177,7 @@ body {
 }
 
 .el-nav {
-    padding: 2% 4%;
+    padding: 2% 8%;
     transform: 0.3s;
 }
 
@@ -268,6 +268,15 @@ body {
     margin: 0;
 }
 
+.pad-container > h3 > i {
+    padding-left: 2%;
+    color: #3c6;
+}
+
+.about-title {
+    display: flex;
+}
+
 .info-line {
     display: flex;
     justify-content: center;
@@ -296,4 +305,8 @@ body {
 
 .interest-line > h4 {
     margin-bottom: 2%;
+}
+
+.container-info {
+    padding-top: 5%;
 }
