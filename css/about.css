@@ -183,7 +183,6 @@ body {
 
 .el-text {
     font-size: 0px;
-    transform: 0.3s;
 }
 
 .el-nav:hover  > a > .el-text{
