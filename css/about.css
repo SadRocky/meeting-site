@@ -177,12 +177,13 @@ body {
 }
 
 .el-nav {
-    padding: 2% 8%;
     transform: 0.3s;
 }
 
 .el-text {
-    font-size: 0px;
+    display: none;
+    margin: 0;
+    padding: 30px 60px 30px;
 }
 
 .el-nav:hover  > a > .el-text{
@@ -190,6 +191,7 @@ body {
     font-size: 15px;
     margin: 0;
 }
+
 
 .el-nav > a {
     text-decoration: none;
@@ -205,6 +207,8 @@ body {
     font-size: 160%;
     color: #616a82;
     transform: 0.3s;
+    padding: 30px 60px 30px;
+
 }
 
 .el-nav:hover > a > i {

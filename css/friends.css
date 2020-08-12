@@ -1,0 +1,242 @@
+body {
+    background-color: #161b28;
+    font-family: 'Rowdies', cursive;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+/*START HEADER*/
+
+.profile-header {
+    background-color: #1d2333;
+    border-radius: 20px;
+}
+
+.header-img {
+    height: 300px;
+    background: url(../img/header.jpg);
+    background-position: center;
+}
+
+.sm-container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+    width: 210px; 
+    height: 210px; 
+    background-color: #1d2333;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.sm-avatar {
+    display: flex;
+    justify-content: center;
+    top: 15px;
+    z-index: 1000;
+    position: absolute;
+    width: 180px; 
+    height: 180px;
+    background: linear-gradient(#96f, #3c6);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.img-avatar {
+    top: 15px;
+    z-index: 1000;
+    position: absolute;
+    width: 150px; 
+    height: 150px;
+    background: url(../img/avatar.jpg);
+    clip-path: circle(50% at 50% 50%);
+}
+
+.person {
+    padding-top: 10%;
+    text-align: center;
+    color: #fff;
+    border-radius: 25%;
+}
+
+.username {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.about-username {
+    color: #9aa4bf;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.vk, .instagram, .twitter, .youtube {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    margin: 5%;
+    border-radius: 25%;
+}
+
+.social > div > a {
+    color: #fff;
+    padding: 25%;
+    position: relative;
+    top: 12px;
+}
+
+.social > div > a > i {
+    font-size: 125%;
+}
+
+.vk {
+    background: #36c;
+}
+
+.instagram {
+    background: #f39;
+}
+
+.twitter {
+    background: #3cf;
+}
+
+.youtube {
+    background: #f36;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info > div {
+    padding: 5%;
+}
+
+.info > div > h2 {
+    margin: 0;
+}
+
+.info > div > p {
+    font-size: 10px;
+    color: #99c;
+}
+
+.com-buttons {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+
+.add-friend, .send-message{
+    font-size: 15px;
+    width: 200px;
+    padding: 5%;
+    border-radius: 25px;
+    border: none;
+    margin: 2%;
+    font-weight: bold;
+}
+
+.add-friend {
+    background: #96f;
+}   
+
+.send-message {
+    background: #3c6;
+}
+
+/*END HEADER*/
+
+
+/*START NAV*/
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #1d2333;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+.el-nav {
+    transform: 0.3s;
+}
+
+.el-text {
+    display: none;
+    margin: 0;
+    padding: 30px 60px 30px;
+}
+
+.el-nav:hover  > a > .el-text{
+    display: block;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+.el-nav > a {
+    text-decoration: none;
+    color: #fff;
+    transform: 0.3s;
+}
+
+.el-nav:hover {
+    border-bottom: 4px solid #3c6;
+    transition: 0.3s;
+}
+.el-nav > a > i {
+    font-size: 160%;
+    color: #616a82;
+    transform: 0.3s;
+    padding: 30px 60px 30px;
+
+}
+
+.el-nav:hover > a > i {
+    color: #3c6;
+    transition: 0.3s;
+    display: none;
+}
+
+/*END NAV*/
+
+.namefriend {
+    margin-top: 5%;
+}
+
+.namefriend > p{
+    color: #99c;
+    font-size: 12px;
+    margin: 0;
+}
+
+.namefriend > h3 {
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+}
+
+.namefriend > h3 > p {
+    display: inline;
+    color: #3c6;
+}
+
