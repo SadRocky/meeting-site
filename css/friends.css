@@ -100,23 +100,27 @@ body {
     top: 12px;
 }
 
-.social > div > a > i {
+.social > .vk > a > i,
+.social > .instagram > a > i,
+.social > .twitter > a > i,
+.social > .youtube > a > i {
+
     font-size: 125%;
 }
 
-.vk {
+.vk, .sm-vk {
     background: #36c;
 }
 
-.instagram {
+.instagram, .sm-instagram {
     background: #f39;
 }
 
-.twitter {
+.twitter, .sm-twitter {
     background: #3cf;
 }
 
-.youtube {
+.youtube, .sm-youtube{
     background: #f36;
 }
 
@@ -254,9 +258,62 @@ body {
     margin-top: 3%;
     text-align: center;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .i-marg {
     margin: 3% 3% 0%;
 }
+
+.bg-user {
+    height: 200px;
+    background: url(/img/avatar.jpg);
+}
+
+.sm-username {
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.sm-vk, .sm-instagram, .sm-twitter, .sm-youtube {
+    width: 25px;
+    height: 25px;
+    margin: 1%;
+    border-radius: 25%;
+}
+
+.sm-vk > a > i, .sm-instagram > a > i, .sm-twitter > a > i, .sm-youtube > a > i {
+    font-size: 80%;
+    position: relative;
+    top: -12px;
+    left: -1px;
+}
+
+.sm-add-friend, .sm-send-message{
+    font-size: 60%;
+    width: 50%;
+    padding: 5%;
+    border-radius: 25px;
+    border: none;
+    margin: 2%;
+    margin-top: 15%;
+    font-weight: bolder;
+}
+
+.sm-add-friend {
+    background: #96f;
+}   
+
+.sm-send-message {
+    background: #3c6;
+}
+
+button > i {
+    color: #fff;
+}
+
+
+
 
